@@ -1,0 +1,50 @@
+# ----------------------------------------------------------------------------
+# README
+# Geography::USStates
+# Version 0.10
+# Dion Almaer (dion@member.com)
+# Tue Dec 15 12:02:59 CST 1998
+# ----------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------
+# ABOUT
+# ----------------------------------------------------------------------------
+Geography::USStates holds US State name and abbreviation information
+that you can get through a few simple functions
+
+NOTE: perldoc Geography::USStates to find out more!
+      see 'test.pl' to see sample functions being used!
+
+# ----------------------------------------------------------------------------
+# COMPATIBILITY
+# ----------------------------------------------------------------------------
+This module is pure Perl. It should work with any Perl5
+
+# ----------------------------------------------------------------------------
+# INSTALL
+# ----------------------------------------------------------------------------
+To build and test this distribution, type:
+
+  perl Makefile.PL
+  make test
+
+If the tests pass, install it:
+
+  make install
+
+# ----------------------------------------------------------------------------
+# PROBLEMS/BUG REPORTS
+# ----------------------------------------------------------------------------
+Please send any reports of problems or bugs to dion@member.com. I wouldn't
+mind a short note to know that you're using this, just so I can justify its
+continued development to my manager :-). (In seriousness, a rough idea of
+how many others are using this will help promote its upkeep.)
+
+# ----------------------------------------------------------------------------
+# CREDITS AND LICENSES
+# ----------------------------------------------------------------------------
+This package is copyright © 1998 by Dion Almer (dion@member.com) and may be
+distributed under terms of the Artistic License used to cover Perl itself.
+See the file Artistic in the distribution of Perl 5.002 or later for details
+of copy and distribution terms.
+# ----------------------------------------------------------------------------
