@@ -3,8 +3,8 @@
 # Auth: Dion Almaer (dion)
 # Desc: Get info on US States
 # Date Created: Sun Nov 15 17:50:29 1998
-# Version: 0.10
-# $Modified: Tue Dec 15 12:16:05 1998 by dion $
+# Version: 0.11
+# $Modified: Sun May 23 14:12:34 1999 by dion $
 # -------------------------------------------------------------------------
 package Geography::USStates;
 
@@ -12,10 +12,9 @@ use     strict;
 require 5.002;
 require Exporter;
 
-$Geography::USStates::VERSION = '0.10';
+$Geography::USStates::VERSION = '0.11';
 @Geography::USStates::ISA     = qw(Exporter);
-@Geography::USStates::EXPORT  = qw(getState getStates 
-				  getStateNames getStateAbbrevs);
+@Geography::USStates::EXPORT  = qw(getState getStates getStateNames getStateAbbrevs);
 
 %Geography::USStates::STATES = 
                   (AL => 'Alabama', AK => 'Alaska', AZ => 'Arizona', 
@@ -25,17 +24,18 @@ $Geography::USStates::VERSION = '0.10';
                    GA => 'Georgia', HI => 'Hawaii', ID => 'Idaho', 
                    IL => 'Illinois', IN => 'Indiana', IA => 'Iowa', 
                    KS => 'Kansas', KY => 'Kentucky', 
-		   LA => 'Louisiana', ME => 'Maine', MD => 'Maryland', 
-		   MA => 'Massachusetts', MI => 'Michigan', MN => 'Minnesota',
-		   MS => 'Mississippi', MO => 'Missouri', MT => 'Montana', 
-		   'NE' => 'Nebraska', NH => 'New Hampshire',
+				   LA => 'Louisiana', ME => 'Maine', MD => 'Maryland', 
+				   MA => 'Massachusetts', MI => 'Michigan', MN => 'Minnesota',
+				   MS => 'Mississippi', MO => 'Missouri', MT => 'Montana', 
+		   		  'NE' => 'Nebraska', NJ => 'New Jersey', NH => 'New Hampshire',
                    NV => 'Nevada', NM => 'New Mexico', NY => 'New York', 
                    NC => 'North Carolina', ND => 'North Dakota', OH => 'Ohio', 
                    OK => 'Oklahoma', OR => 'Oregon', PA => 'Pennsylvania', 
                    RI => 'Rhode Island', SC => 'South Carolina', 
                    SD => 'South Dakota', TN => 'Tennessee', TX => 'Texas', 
                    UT => 'Utah', VT => 'Vermont', VA => 'Virginia', 
-                   WA => 'Washington', WV => 'West Virginia', WI => 'Wisconsin',                   WY => 'Wyoming');
+                   WA => 'Washington', WV => 'West Virginia', WI => 'Wisconsin', 
+				   WY => 'Wyoming');
 
 # ----------------------------------------------------------------------------
 # Subroutine: getState - given abbrev get full name, given name get abbrev
